@@ -1,27 +1,156 @@
 {
-  "Vegetables": [
+  "cereals": [
     {
-      "name": "Tomato",
-      "temperature_range": "20-30",
-      "humidity_range": "50-70",
-      "wind_speed": "0-5",
-      "condition": "Sunny"
+      "name": "Wheat",
+      "temperature_range": "15-25",
+      "rainfall_mm": "300-700",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "3000-4000 kg"
     },
     {
-      "name": "Spinach",
-      "temperature_range": "10-25",
-      "humidity_range": "60-80",
-      "wind_speed": "0-7",
-      "condition": "Cloudy"
+      "name": "Rice",
+      "temperature_range": "20-35",
+      "rainfall_mm": "1000-2000",
+      "soil_ph": "5.5-6.5",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "4000-6000 kg"
+    },
+    {
+      "name": "Maize",
+      "temperature_range": "18-30",
+      "rainfall_mm": "500-800",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "5000-8000 kg"
+    },
+    {
+      "name": "Barley",
+      "temperature_range": "10-20",
+      "rainfall_mm": "200-500",
+      "soil_ph": "6.5-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "2500-3500 kg"
     }
   ],
-  "Fruits": [
+  "fruits": [
+    {
+      "name": "Apple",
+      "temperature_range": "5-25",
+      "rainfall_mm": "600-1200",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "15000-25000 kg"
+    },
     {
       "name": "Mango",
+      "temperature_range": "24-30",
+      "rainfall_mm": "750-2500",
+      "soil_ph": "5.5-7.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "10000-20000 kg"
+    },
+    {
+      "name": "Orange",
+      "temperature_range": "13-30",
+      "rainfall_mm": "600-1200",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "20000-30000 kg"
+    },
+    {
+      "name": "Banana",
+      "temperature_range": "26-30",
+      "rainfall_mm": "1200-2500",
+      "soil_ph": "5.5-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "25000-40000 kg"
+    }
+  ],
+  "vegetables": [
+    {
+      "name": "Tomato",
+      "temperature_range": "18-25",
+      "rainfall_mm": "600-1000",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "30000-50000 kg"
+    },
+    {
+      "name": "Potato",
+      "temperature_range": "15-20",
+      "rainfall_mm": "500-700",
+      "soil_ph": "5.0-6.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "20000-35000 kg"
+    },
+    {
+      "name": "Onion",
+      "temperature_range": "12-25",
+      "rainfall_mm": "350-550",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Carrot",
+      "temperature_range": "16-22",
+      "rainfall_mm": "400-600",
+      "soil_ph": "5.5-7.0",
+      "growing_season": "Winter",
+      "yield_per_hectare": "25000-35000 kg"
+    }
+  ],
+  "pulses": [
+    {
+      "name": "Chickpea",
+      "temperature_range": "20-30",
+      "rainfall_mm": "300-400",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "1000-1500 kg"
+    },
+    {
+      "name": "Lentil",
+      "temperature_range": "18-25",
+      "rainfall_mm": "250-300",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Winter",
+      "yield_per_hectare": "800-1200 kg"
+    },
+    {
+      "name": "Black Gram",
       "temperature_range": "25-35",
-      "humidity_range": "40-60",
-      "wind_speed": "0-8",
-      "condition": "Sunny"
+      "rainfall_mm": "600-1000",
+      "soil_ph": "6.5-7.5",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "800-1000 kg"
+    }
+  ],
+  "spices": [
+    {
+      "name": "Turmeric",
+      "temperature_range": "20-30",
+      "rainfall_mm": "1500-2250",
+      "soil_ph": "5.0-7.5",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "2000-5000 kg"
+    },
+    {
+      "name": "Coriander",
+      "temperature_range": "20-30",
+      "rainfall_mm": "600-800",
+      "soil_ph": "6.5-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "1000-1500 kg"
+    },
+    {
+      "name": "Cumin",
+      "temperature_range": "25-30",
+      "rainfall_mm": "300-400",
+      "soil_ph": "7.0-8.0",
+      "growing_season": "Winter",
+      "yield_per_hectare": "400-600 kg"
     }
   ]
 }

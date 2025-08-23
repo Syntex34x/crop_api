@@ -2,155 +2,1383 @@
   "cereals": [
     {
       "name": "Wheat",
-      "temperature_range": "15-25",
-      "rainfall_mm": "300-700",
+      "temperature": "15-25",
+      "humidity": "50-70",
+      "condition": "Cool and dry climate",
       "soil_ph": "6.0-7.5",
       "growing_season": "Winter",
       "yield_per_hectare": "3000-4000 kg"
     },
     {
       "name": "Rice",
-      "temperature_range": "20-35",
-      "rainfall_mm": "1000-2000",
+      "temperature": "20-35",
+      "humidity": "80-95",
+      "condition": "Warm and humid climate",
       "soil_ph": "5.5-6.5",
       "growing_season": "Monsoon",
       "yield_per_hectare": "4000-6000 kg"
     },
     {
       "name": "Maize",
-      "temperature_range": "18-30",
-      "rainfall_mm": "500-800",
+      "temperature": "18-30",
+      "humidity": "60-80",
+      "condition": "Warm temperate climate",
       "soil_ph": "6.0-7.0",
       "growing_season": "Summer",
       "yield_per_hectare": "5000-8000 kg"
     },
     {
       "name": "Barley",
-      "temperature_range": "10-20",
-      "rainfall_mm": "200-500",
+      "temperature": "10-20",
+      "humidity": "45-65",
+      "condition": "Cool dry climate",
       "soil_ph": "6.5-7.5",
       "growing_season": "Winter",
       "yield_per_hectare": "2500-3500 kg"
+    },
+    {
+      "name": "Oats",
+      "temperature": "12-22",
+      "humidity": "50-70",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring",
+      "yield_per_hectare": "2000-3000 kg"
+    },
+    {
+      "name": "Sorghum",
+      "temperature": "25-35",
+      "humidity": "40-60",
+      "condition": "Hot dry climate",
+      "soil_ph": "6.0-8.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "3000-5000 kg"
+    },
+    {
+      "name": "Millet",
+      "temperature": "20-30",
+      "humidity": "35-55",
+      "condition": "Semi-arid climate",
+      "soil_ph": "5.5-8.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "1500-2500 kg"
+    },
+    {
+      "name": "Rye",
+      "temperature": "5-20",
+      "humidity": "55-75",
+      "condition": "Cold temperate climate",
+      "soil_ph": "5.0-7.0",
+      "growing_season": "Winter",
+      "yield_per_hectare": "2000-3500 kg"
+    },
+    {
+      "name": "Quinoa",
+      "temperature": "10-25",
+      "humidity": "40-70",
+      "condition": "Cool high altitude",
+      "soil_ph": "6.0-8.5",
+      "growing_season": "Spring",
+      "yield_per_hectare": "1000-3000 kg"
+    },
+    {
+      "name": "Buckwheat",
+      "temperature": "15-25",
+      "humidity": "60-80",
+      "condition": "Cool moist climate",
+      "soil_ph": "5.5-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "800-1500 kg"
     }
   ],
   "fruits": [
     {
       "name": "Apple",
-      "temperature_range": "5-25",
-      "rainfall_mm": "600-1200",
+      "temperature": "5-25",
+      "humidity": "60-80",
+      "condition": "Temperate climate with cold winters",
       "soil_ph": "6.0-7.0",
       "growing_season": "Year-round",
       "yield_per_hectare": "15000-25000 kg"
     },
     {
       "name": "Mango",
-      "temperature_range": "24-30",
-      "rainfall_mm": "750-2500",
+      "temperature": "24-30",
+      "humidity": "70-85",
+      "condition": "Tropical hot climate",
       "soil_ph": "5.5-7.5",
       "growing_season": "Summer",
       "yield_per_hectare": "10000-20000 kg"
     },
     {
       "name": "Orange",
-      "temperature_range": "13-30",
-      "rainfall_mm": "600-1200",
+      "temperature": "13-30",
+      "humidity": "65-85",
+      "condition": "Subtropical climate",
       "soil_ph": "6.0-7.5",
       "growing_season": "Year-round",
       "yield_per_hectare": "20000-30000 kg"
     },
     {
       "name": "Banana",
-      "temperature_range": "26-30",
-      "rainfall_mm": "1200-2500",
+      "temperature": "26-30",
+      "humidity": "80-95",
+      "condition": "Tropical humid climate",
       "soil_ph": "5.5-7.0",
       "growing_season": "Year-round",
       "yield_per_hectare": "25000-40000 kg"
+    },
+    {
+      "name": "Grapes",
+      "temperature": "15-28",
+      "humidity": "50-70",
+      "condition": "Mediterranean climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Strawberry",
+      "temperature": "15-25",
+      "humidity": "70-85",
+      "condition": "Cool temperate climate",
+      "soil_ph": "5.5-6.8",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Pineapple",
+      "temperature": "20-32",
+      "humidity": "75-90",
+      "condition": "Tropical warm climate",
+      "soil_ph": "4.5-6.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "30000-50000 kg"
+    },
+    {
+      "name": "Papaya",
+      "temperature": "22-32",
+      "humidity": "75-90",
+      "condition": "Tropical humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "35000-60000 kg"
+    },
+    {
+      "name": "Lemon",
+      "temperature": "15-30",
+      "humidity": "60-80",
+      "condition": "Subtropical warm climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "12000-20000 kg"
+    },
+    {
+      "name": "Avocado",
+      "temperature": "18-28",
+      "humidity": "70-85",
+      "condition": "Subtropical mild climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Peach",
+      "temperature": "15-28",
+      "humidity": "55-75",
+      "condition": "Temperate warm climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "12000-20000 kg"
+    },
+    {
+      "name": "Cherry",
+      "temperature": "10-25",
+      "humidity": "60-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Plum",
+      "temperature": "12-26",
+      "humidity": "55-75",
+      "condition": "Temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "10000-18000 kg"
+    },
+    {
+      "name": "Pomegranate",
+      "temperature": "18-35",
+      "humidity": "40-70",
+      "condition": "Semi-arid warm climate",
+      "soil_ph": "5.5-7.5",
+      "growing_season": "Fall-Winter",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Fig",
+      "temperature": "18-30",
+      "humidity": "50-70",
+      "condition": "Mediterranean warm climate",
+      "soil_ph": "6.0-8.0",
+      "growing_season": "Summer-Fall",
+      "yield_per_hectare": "6000-12000 kg"
+    },
+    {
+      "name": "Date Palm",
+      "temperature": "20-50",
+      "humidity": "20-40",
+      "condition": "Hot arid climate",
+      "soil_ph": "7.0-8.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "5000-10000 kg"
+    },
+    {
+      "name": "Coconut",
+      "temperature": "20-32",
+      "humidity": "80-95",
+      "condition": "Tropical coastal climate",
+      "soil_ph": "5.2-8.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Kiwi",
+      "temperature": "10-25",
+      "humidity": "70-85",
+      "condition": "Temperate cool climate",
+      "soil_ph": "5.5-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "20000-35000 kg"
+    },
+    {
+      "name": "Watermelon",
+      "temperature": "20-35",
+      "humidity": "60-80",
+      "condition": "Hot summer climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "25000-50000 kg"
+    },
+    {
+      "name": "Cantaloupe",
+      "temperature": "18-30",
+      "humidity": "50-70",
+      "condition": "Warm dry climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "20000-35000 kg"
     }
   ],
   "vegetables": [
     {
       "name": "Tomato",
-      "temperature_range": "18-25",
-      "rainfall_mm": "600-1000",
+      "temperature": "18-25",
+      "humidity": "65-85",
+      "condition": "Warm temperate climate",
       "soil_ph": "6.0-7.0",
       "growing_season": "Summer",
       "yield_per_hectare": "30000-50000 kg"
     },
     {
       "name": "Potato",
-      "temperature_range": "15-20",
-      "rainfall_mm": "500-700",
+      "temperature": "15-20",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
       "soil_ph": "5.0-6.5",
       "growing_season": "Winter",
       "yield_per_hectare": "20000-35000 kg"
     },
     {
       "name": "Onion",
-      "temperature_range": "12-25",
-      "rainfall_mm": "350-550",
+      "temperature": "12-25",
+      "humidity": "55-75",
+      "condition": "Cool dry climate",
       "soil_ph": "6.0-7.5",
       "growing_season": "Winter",
       "yield_per_hectare": "15000-25000 kg"
     },
     {
       "name": "Carrot",
-      "temperature_range": "16-22",
-      "rainfall_mm": "400-600",
+      "temperature": "16-22",
+      "humidity": "60-80",
+      "condition": "Cool temperate climate",
       "soil_ph": "5.5-7.0",
       "growing_season": "Winter",
       "yield_per_hectare": "25000-35000 kg"
+    },
+    {
+      "name": "Cabbage",
+      "temperature": "15-20",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "40000-60000 kg"
+    },
+    {
+      "name": "Cauliflower",
+      "temperature": "15-20",
+      "humidity": "75-85",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Winter",
+      "yield_per_hectare": "20000-35000 kg"
+    },
+    {
+      "name": "Broccoli",
+      "temperature": "15-22",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter-Spring",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Lettuce",
+      "temperature": "10-20",
+      "humidity": "80-95",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "12000-20000 kg"
+    },
+    {
+      "name": "Spinach",
+      "temperature": "10-20",
+      "humidity": "75-90",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter-Spring",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Bell Pepper",
+      "temperature": "20-28",
+      "humidity": "65-80",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "25000-40000 kg"
+    },
+    {
+      "name": "Cucumber",
+      "temperature": "20-30",
+      "humidity": "75-90",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "30000-50000 kg"
+    },
+    {
+      "name": "Eggplant",
+      "temperature": "22-30",
+      "humidity": "70-85",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "20000-35000 kg"
+    },
+    {
+      "name": "Okra",
+      "temperature": "25-35",
+      "humidity": "60-80",
+      "condition": "Hot humid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Sweet Potato",
+      "temperature": "20-30",
+      "humidity": "70-85",
+      "condition": "Warm humid climate",
+      "soil_ph": "5.8-6.2",
+      "growing_season": "Summer-Fall",
+      "yield_per_hectare": "15000-30000 kg"
+    },
+    {
+      "name": "Beetroot",
+      "temperature": "15-20",
+      "humidity": "65-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter-Spring",
+      "yield_per_hectare": "20000-35000 kg"
+    },
+    {
+      "name": "Radish",
+      "temperature": "10-18",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
+      "soil_ph": "5.8-6.8",
+      "growing_season": "Winter-Spring",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Turnip",
+      "temperature": "10-18",
+      "humidity": "65-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "5.5-6.8",
+      "growing_season": "Winter-Spring",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Pumpkin",
+      "temperature": "18-30",
+      "humidity": "60-80",
+      "condition": "Warm temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Summer-Fall",
+      "yield_per_hectare": "20000-40000 kg"
+    },
+    {
+      "name": "Zucchini",
+      "temperature": "18-25",
+      "humidity": "70-85",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "25000-45000 kg"
+    },
+    {
+      "name": "Green Bean",
+      "temperature": "18-24",
+      "humidity": "65-80",
+      "condition": "Warm temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "8000-15000 kg"
     }
   ],
   "pulses": [
     {
       "name": "Chickpea",
-      "temperature_range": "20-30",
-      "rainfall_mm": "300-400",
+      "temperature": "20-30",
+      "humidity": "50-70",
+      "condition": "Cool dry climate",
       "soil_ph": "6.0-7.5",
       "growing_season": "Winter",
       "yield_per_hectare": "1000-1500 kg"
     },
     {
       "name": "Lentil",
-      "temperature_range": "18-25",
-      "rainfall_mm": "250-300",
+      "temperature": "18-25",
+      "humidity": "55-75",
+      "condition": "Cool temperate climate",
       "soil_ph": "6.0-7.0",
       "growing_season": "Winter",
       "yield_per_hectare": "800-1200 kg"
     },
     {
       "name": "Black Gram",
-      "temperature_range": "25-35",
-      "rainfall_mm": "600-1000",
+      "temperature": "25-35",
+      "humidity": "75-90",
+      "condition": "Hot humid climate",
       "soil_ph": "6.5-7.5",
       "growing_season": "Monsoon",
       "yield_per_hectare": "800-1000 kg"
+    },
+    {
+      "name": "Green Gram",
+      "temperature": "25-35",
+      "humidity": "60-80",
+      "condition": "Hot semi-humid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "600-1000 kg"
+    },
+    {
+      "name": "Field Pea",
+      "temperature": "10-20",
+      "humidity": "60-80",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "1200-2000 kg"
+    },
+    {
+      "name": "Pigeon Pea",
+      "temperature": "20-35",
+      "humidity": "55-75",
+      "condition": "Semi-arid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "800-1500 kg"
+    },
+    {
+      "name": "Cowpea",
+      "temperature": "25-35",
+      "humidity": "60-80",
+      "condition": "Hot humid climate",
+      "soil_ph": "5.5-6.8",
+      "growing_season": "Summer",
+      "yield_per_hectare": "1000-1500 kg"
+    },
+    {
+      "name": "Soybean",
+      "temperature": "20-30",
+      "humidity": "70-85",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "1500-2500 kg"
+    },
+    {
+      "name": "Kidney Bean",
+      "temperature": "15-25",
+      "humidity": "65-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "1200-2000 kg"
+    },
+    {
+      "name": "Lima Bean",
+      "temperature": "18-27",
+      "humidity": "70-85",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "1000-1800 kg"
     }
   ],
   "spices": [
     {
       "name": "Turmeric",
-      "temperature_range": "20-30",
-      "rainfall_mm": "1500-2250",
+      "temperature": "20-30",
+      "humidity": "80-95",
+      "condition": "Warm humid climate",
       "soil_ph": "5.0-7.5",
       "growing_season": "Monsoon",
       "yield_per_hectare": "2000-5000 kg"
     },
     {
       "name": "Coriander",
-      "temperature_range": "20-30",
-      "rainfall_mm": "600-800",
+      "temperature": "20-30",
+      "humidity": "55-75",
+      "condition": "Cool dry climate",
       "soil_ph": "6.5-7.5",
       "growing_season": "Winter",
       "yield_per_hectare": "1000-1500 kg"
     },
     {
       "name": "Cumin",
-      "temperature_range": "25-30",
-      "rainfall_mm": "300-400",
+      "temperature": "25-30",
+      "humidity": "40-60",
+      "condition": "Hot dry climate",
       "soil_ph": "7.0-8.0",
       "growing_season": "Winter",
       "yield_per_hectare": "400-600 kg"
+    },
+    {
+      "name": "Black Pepper",
+      "temperature": "20-35",
+      "humidity": "80-95",
+      "condition": "Tropical humid climate",
+      "soil_ph": "4.5-6.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "500-2000 kg"
+    },
+    {
+      "name": "Cardamom",
+      "temperature": "10-35",
+      "humidity": "75-85",
+      "condition": "Cool humid hill climate",
+      "soil_ph": "4.5-6.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "100-300 kg"
+    },
+    {
+      "name": "Ginger",
+      "temperature": "25-30",
+      "humidity": "80-90",
+      "condition": "Warm humid climate",
+      "soil_ph": "5.5-6.5",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Garlic",
+      "temperature": "12-25",
+      "humidity": "50-70",
+      "condition": "Cool dry climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "8000-12000 kg"
+    },
+    {
+      "name": "Chili",
+      "temperature": "20-30",
+      "humidity": "60-80",
+      "condition": "Hot humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "1500-3000 kg"
+    },
+    {
+      "name": "Fenugreek",
+      "temperature": "15-25",
+      "humidity": "50-70",
+      "condition": "Cool dry climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Winter",
+      "yield_per_hectare": "1000-1500 kg"
+    },
+    {
+      "name": "Fennel",
+      "temperature": "15-25",
+      "humidity": "55-75",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.5-8.0",
+      "growing_season": "Winter",
+      "yield_per_hectare": "800-1500 kg"
+    }
+  ],
+  "leafy_greens": [
+    {
+      "name": "Kale",
+      "temperature": "10-20",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "12000-20000 kg"
+    },
+    {
+      "name": "Swiss Chard",
+      "temperature": "15-24",
+      "humidity": "65-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "10000-18000 kg"
+    },
+    {
+      "name": "Collard Greens",
+      "temperature": "15-25",
+      "humidity": "70-85",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Arugula",
+      "temperature": "10-20",
+      "humidity": "65-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Mustard Greens",
+      "temperature": "15-25",
+      "humidity": "60-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter-Spring",
+      "yield_per_hectare": "10000-18000 kg"
+    },
+    {
+      "name": "Chinese Cabbage",
+      "temperature": "15-20",
+      "humidity": "75-85",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "30000-50000 kg"
+    },
+    {
+      "name": "Watercress",
+      "temperature": "10-20",
+      "humidity": "85-95",
+      "condition": "Cool very humid climate",
+      "soil_ph": "6.5-7.5",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "5000-10000 kg"
+    },
+    {
+      "name": "Endive",
+      "temperature": "15-20",
+      "humidity": "70-85",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Radicchio",
+      "temperature": "10-18",
+      "humidity": "70-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Fall-Winter",
+      "yield_per_hectare": "10000-18000 kg"
+    },
+    {
+      "name": "Romaine Lettuce",
+      "temperature": "15-20",
+      "humidity": "75-85",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "15000-25000 kg"
+    }
+  ],
+  "root_vegetables": [
+    {
+      "name": "Sweet Corn",
+      "temperature": "18-30",
+      "humidity": "60-80",
+      "condition": "Warm temperate climate",
+      "soil_ph": "6.0-6.8",
+      "growing_season": "Summer",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Parsnip",
+      "temperature": "10-18",
+      "humidity": "65-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Fall-Winter",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Rutabaga",
+      "temperature": "10-15",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
+      "soil_ph": "5.5-7.0",
+      "growing_season": "Fall-Winter",
+      "yield_per_hectare": "20000-35000 kg"
+    },
+    {
+      "name": "Cassava",
+      "temperature": "25-35",
+      "humidity": "70-85",
+      "condition": "Tropical hot climate",
+      "soil_ph": "4.5-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "15000-30000 kg"
+    },
+    {
+      "name": "Yam",
+      "temperature": "25-30",
+      "humidity": "75-85",
+      "condition": "Tropical humid climate",
+      "soil_ph": "5.5-6.5",
+      "growing_season": "Wet season",
+      "yield_per_hectare": "12000-25000 kg"
+    },
+    {
+      "name": "Jerusalem Artichoke",
+      "temperature": "15-20",
+      "humidity": "60-75",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Fall",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Jicama",
+      "temperature": "20-30",
+      "humidity": "70-85",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer-Fall",
+      "yield_per_hectare": "20000-35000 kg"
+    },
+    {
+      "name": "Daikon Radish",
+      "temperature": "10-20",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Fall-Winter",
+      "yield_per_hectare": "25000-40000 kg"
+    }
+  ],
+  "herbs": [
+    {
+      "name": "Basil",
+      "temperature": "20-30",
+      "humidity": "60-80",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "3000-6000 kg"
+    },
+    {
+      "name": "Oregano",
+      "temperature": "18-28",
+      "humidity": "50-70",
+      "condition": "Mediterranean climate",
+      "soil_ph": "6.0-8.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "2000-4000 kg"
+    },
+    {
+      "name": "Thyme",
+      "temperature": "15-25",
+      "humidity": "45-65",
+      "condition": "Mediterranean dry climate",
+      "soil_ph": "7.0-8.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "1500-3000 kg"
+    },
+    {
+      "name": "Rosemary",
+      "temperature": "15-30",
+      "humidity": "40-60",
+      "condition": "Mediterranean dry climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "2000-4000 kg"
+    },
+    {
+      "name": "Sage",
+      "temperature": "15-25",
+      "humidity": "50-70",
+      "condition": "Temperate dry climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "1500-3000 kg"
+    },
+    {
+      "name": "Mint",
+      "temperature": "15-25",
+      "humidity": "70-90",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Parsley",
+      "temperature": "10-22",
+      "humidity": "65-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "5000-10000 kg"
+    },
+    {
+      "name": "Cilantro",
+      "temperature": "15-25",
+      "humidity": "60-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.2-6.8",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "3000-6000 kg"
+    },
+    {
+      "name": "Dill",
+      "temperature": "15-25",
+      "humidity": "55-75",
+      "condition": "Cool temperate climate",
+      "soil_ph": "5.8-7.5",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "2000-4000 kg"
+    },
+    {
+      "name": "Chives",
+      "temperature": "10-24",
+      "humidity": "65-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "4000-8000 kg"
+    }
+  ],
+  "nuts": [
+    {
+      "name": "Almond",
+      "temperature": "15-30",
+      "humidity": "45-65",
+      "condition": "Mediterranean warm climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "1500-3000 kg"
+    },
+    {
+      "name": "Walnut",
+      "temperature": "10-25",
+      "humidity": "50-70",
+      "condition": "Temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "2000-4000 kg"
+    },
+    {
+      "name": "Pecan",
+      "temperature": "20-30",
+      "humidity": "60-80",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.0-8.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "1000-2500 kg"
+    },
+    {
+      "name": "Hazelnut",
+      "temperature": "12-25",
+      "humidity": "60-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "5.5-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "1500-3000 kg"
+    },
+    {
+      "name": "Pistachio",
+      "temperature": "20-35",
+      "humidity": "30-50",
+      "condition": "Hot dry climate",
+      "soil_ph": "7.0-8.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "800-2000 kg"
+    },
+    {
+      "name": "Cashew",
+      "temperature": "20-35",
+      "humidity": "70-85",
+      "condition": "Tropical humid climate",
+      "soil_ph": "5.0-6.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "500-1500 kg"
+    },
+    {
+      "name": "Brazil Nut",
+      "temperature": "25-28",
+      "humidity": "80-95",
+      "condition": "Tropical rainforest climate",
+      "soil_ph": "4.5-6.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "200-800 kg"
+    },
+    {
+      "name": "Macadamia",
+      "temperature": "20-30",
+      "humidity": "70-85",
+      "condition": "Subtropical humid climate",
+      "soil_ph": "5.0-6.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "1000-2500 kg"
+    }
+  ],
+  "berries": [
+    {
+      "name": "Blueberry",
+      "temperature": "15-25",
+      "humidity": "65-85",
+      "condition": "Cool acidic climate",
+      "soil_ph": "4.0-5.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Raspberry",
+      "temperature": "15-25",
+      "humidity": "70-85",
+      "condition": "Cool temperate climate",
+      "soil_ph": "5.5-6.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "6000-12000 kg"
+    },
+    {
+      "name": "Blackberry",
+      "temperature": "18-26",
+      "humidity": "65-80",
+      "condition": "Temperate climate",
+      "soil_ph": "5.5-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Cranberry",
+      "temperature": "10-20",
+      "humidity": "80-95",
+      "condition": "Cool boggy climate",
+      "soil_ph": "4.0-5.5",
+      "growing_season": "Fall",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Gooseberry",
+      "temperature": "10-20",
+      "humidity": "70-85",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "5000-10000 kg"
+    },
+    {
+      "name": "Elderberry",
+      "temperature": "15-25",
+      "humidity": "65-80",
+      "condition": "Temperate climate",
+      "soil_ph": "5.5-6.5",
+      "growing_season": "Late Summer",
+      "yield_per_hectare": "4000-8000 kg"
+    }
+  ],
+  "tropical_fruits": [
+    {
+      "name": "Jackfruit",
+      "temperature": "22-35",
+      "humidity": "70-90",
+      "condition": "Tropical hot humid climate",
+      "soil_ph": "5.0-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "15000-30000 kg"
+    },
+    {
+      "name": "Durian",
+      "temperature": "24-30",
+      "humidity": "75-90",
+      "condition": "Tropical equatorial climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Dragon Fruit",
+      "temperature": "20-30",
+      "humidity": "60-80",
+      "condition": "Tropical dry climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "10000-20000 kg"
+    },
+    {
+      "name": "Passion Fruit",
+      "temperature": "20-30",
+      "humidity": "70-85",
+      "condition": "Subtropical climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "12000-25000 kg"
+    },
+    {
+      "name": "Rambutan",
+      "temperature": "22-30",
+      "humidity": "80-90",
+      "condition": "Tropical humid climate",
+      "soil_ph": "5.5-6.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Lychee",
+      "temperature": "15-28",
+      "humidity": "70-85",
+      "condition": "Subtropical climate",
+      "soil_ph": "5.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "6000-12000 kg"
+    },
+    {
+      "name": "Star Fruit",
+      "temperature": "20-30",
+      "humidity": "70-85",
+      "condition": "Tropical climate",
+      "soil_ph": "5.5-6.8",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Guava",
+      "temperature": "23-28",
+      "humidity": "70-85",
+      "condition": "Tropical climate",
+      "soil_ph": "5.0-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "15000-30000 kg"
+    }
+  ],
+  "oil_crops": [
+    {
+      "name": "Sunflower",
+      "temperature": "20-25",
+      "humidity": "50-70",
+      "condition": "Temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "1500-3000 kg"
+    },
+    {
+      "name": "Canola",
+      "temperature": "12-20",
+      "humidity": "60-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "5.5-7.0",
+      "growing_season": "Spring",
+      "yield_per_hectare": "2000-4000 kg"
+    },
+    {
+      "name": "Sesame",
+      "temperature": "25-30",
+      "humidity": "50-70",
+      "condition": "Hot dry climate",
+      "soil_ph": "5.5-8.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "400-800 kg"
+    },
+    {
+      "name": "Flax",
+      "temperature": "16-20",
+      "humidity": "70-80",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring",
+      "yield_per_hectare": "1200-2000 kg"
+    },
+    {
+      "name": "Safflower",
+      "temperature": "20-30",
+      "humidity": "40-60",
+      "condition": "Hot dry climate",
+      "soil_ph": "6.0-8.5",
+      "growing_season": "Summer",
+      "yield_per_hectare": "800-1500 kg"
+    },
+    {
+      "name": "Niger",
+      "temperature": "20-30",
+      "humidity": "60-80",
+      "condition": "Warm semi-humid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "500-1000 kg"
+    },
+    {
+      "name": "Mustard",
+      "temperature": "15-25",
+      "humidity": "50-70",
+      "condition": "Cool dry climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Winter",
+      "yield_per_hectare": "800-1500 kg"
+    },
+    {
+      "name": "Groundnut",
+      "temperature": "20-30",
+      "humidity": "50-75",
+      "condition": "Warm climate",
+      "soil_ph": "5.8-6.2",
+      "growing_season": "Summer",
+      "yield_per_hectare": "1500-3000 kg"
+    }
+  ],
+  "fiber_crops": [
+    {
+      "name": "Cotton",
+      "temperature": "21-30",
+      "humidity": "50-80",
+      "condition": "Warm climate with irrigation",
+      "soil_ph": "5.8-8.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "500-1500 kg"
+    },
+    {
+      "name": "Jute",
+      "temperature": "24-37",
+      "humidity": "80-90",
+      "condition": "Hot humid climate",
+      "soil_ph": "5.5-7.5",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "2000-4000 kg"
+    },
+    {
+      "name": "Hemp",
+      "temperature": "15-27",
+      "humidity": "60-80",
+      "condition": "Temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Spring-Summer",
+      "yield_per_hectare": "1000-2000 kg"
+    },
+    {
+      "name": "Sisal",
+      "temperature": "25-30",
+      "humidity": "40-60",
+      "condition": "Hot semi-arid climate",
+      "soil_ph": "6.5-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "800-1500 kg"
+    }
+  ],
+  "medicinal_plants": [
+    {
+      "name": "Aloe Vera",
+      "temperature": "20-30",
+      "humidity": "30-50",
+      "condition": "Hot dry climate",
+      "soil_ph": "7.0-8.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Neem",
+      "temperature": "21-32",
+      "humidity": "40-70",
+      "condition": "Tropical dry climate",
+      "soil_ph": "6.2-7.0",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "3000-8000 kg"
+    },
+    {
+      "name": "Tulsi",
+      "temperature": "20-35",
+      "humidity": "50-80",
+      "condition": "Tropical climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Year-round",
+      "yield_per_hectare": "2000-5000 kg"
+    },
+    {
+      "name": "Ashwagandha",
+      "temperature": "20-30",
+      "humidity": "40-70",
+      "condition": "Dry subtropical climate",
+      "soil_ph": "7.5-8.0",
+      "growing_season": "Winter",
+      "yield_per_hectare": "400-600 kg"
+    },
+    {
+      "name": "Brahmi",
+      "temperature": "20-30",
+      "humidity": "70-90",
+      "condition": "Warm humid climate",
+      "soil_ph": "6.5-7.5",
+      "growing_season": "Monsoon",
+      "yield_per_hectare": "1000-2000 kg"
+    }
+  ],
+  "exotic_vegetables": [
+    {
+      "name": "Artichoke",
+      "temperature": "15-20",
+      "humidity": "70-80",
+      "condition": "Mediterranean cool climate",
+      "soil_ph": "6.5-7.5",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Asparagus",
+      "temperature": "15-24",
+      "humidity": "60-75",
+      "condition": "Temperate climate",
+      "soil_ph": "6.5-7.5",
+      "growing_season": "Spring",
+      "yield_per_hectare": "3000-8000 kg"
+    },
+    {
+      "name": "Brussels Sprouts",
+      "temperature": "15-18",
+      "humidity": "75-85",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Fall-Winter",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Kohlrabi",
+      "temperature": "15-20",
+      "humidity": "70-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "15000-25000 kg"
+    },
+    {
+      "name": "Leek",
+      "temperature": "12-20",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "20000-35000 kg"
+    },
+    {
+      "name": "Fennel Bulb",
+      "temperature": "15-20",
+      "humidity": "65-80",
+      "condition": "Cool Mediterranean climate",
+      "soil_ph": "6.0-8.0",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "12000-20000 kg"
+    },
+    {
+      "name": "Bok Choy",
+      "temperature": "15-20",
+      "humidity": "75-85",
+      "condition": "Cool humid climate",
+      "soil_ph": "6.0-7.5",
+      "growing_season": "Fall-Spring",
+      "yield_per_hectare": "25000-40000 kg"
+    },
+    {
+      "name": "Tomatillo",
+      "temperature": "18-25",
+      "humidity": "60-80",
+      "condition": "Warm temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "15000-30000 kg"
+    }
+  ],
+  "forage_crops": [
+    {
+      "name": "Alfalfa",
+      "temperature": "15-25",
+      "humidity": "50-70",
+      "condition": "Temperate climate",
+      "soil_ph": "6.8-7.8",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Clover",
+      "temperature": "15-25",
+      "humidity": "60-80",
+      "condition": "Cool temperate climate",
+      "soil_ph": "6.0-7.0",
+      "growing_season": "Spring-Fall",
+      "yield_per_hectare": "6000-12000 kg"
+    },
+    {
+      "name": "Timothy Grass",
+      "temperature": "10-20",
+      "humidity": "70-85",
+      "condition": "Cool moist climate",
+      "soil_ph": "5.5-7.0",
+      "growing_session": "Summer",
+      "yield_per_hectare": "5000-10000 kg"
+    },
+    {
+      "name": "Bermuda Grass",
+      "temperature": "20-35",
+      "humidity": "40-70",
+      "condition": "Warm climate",
+      "soil_ph": "5.8-7.0",
+      "growing_season": "Summer",
+      "yield_per_hectare": "8000-15000 kg"
+    },
+    {
+      "name": "Sudan Grass",
+      "temperature": "20-35",
+      "humidity": "50-80",
+      "condition": "Hot climate",
+      "soil_ph": "5.8-8.2",
+      "growing_season": "Summer",
+      "yield_per_hectare": "10000-20000 kg"
     }
   ]
 }
